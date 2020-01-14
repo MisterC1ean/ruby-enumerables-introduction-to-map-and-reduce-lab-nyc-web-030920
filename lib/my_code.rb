@@ -52,7 +52,7 @@ end
 
 def reduce_to_all_true(source_array)
  counter = 0
- truthy
+ truthy = true
  while counter < source_array.length
  if source_array[counter]
    truthy = true
